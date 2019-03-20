@@ -1,0 +1,175 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#top_nav 
+{
+	float: right;
+
+}
+#top_nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin:20px 15px 0 0;
+	font-size: 13px;
+}
+
+#top_nav ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+
+#top_nav ul li a:hover
+{
+	text-decoration: underline;
+}
+#app_icon
+{
+	width: 17px;
+	height: 17px;
+	position: relative;
+	top: 3px;
+}
+
+/*===================================*/
+
+#main_id
+{
+	clear: both;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+#main_img
+{
+	width:14%;
+	height: auto;
+}
+
+#input_txt
+{
+	width: 600px;
+	height: 46px;
+	border-radius: 50px;
+	border: 1px solid #e8eaed;
+	font-size: 16px;
+	font-style:'arial', sans-serif;
+	margin: 20px 0;
+	outline: none;
+	padding-left: 20px;
+	background-image: url("image/Mic.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 550px;
+}
+
+#input_txt:hover
+{
+	box-shadow: 2px 2px 3px 1px #e8eaed;
+}
+
+/*=========================================*/
+
+input[type="button"]
+{
+	padding: 10px 20px;
+	margin: 10px 10px 0 0;
+	border-radius: 5px;
+	outline: none;
+	background: rgb(241, 241, 241);
+	border: 1px solid #e8eaed;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+input[type="button"]:hover
+{
+	box-shadow: 0px 1px 1px 1px #d6d8db;
+}
+
+p
+{
+	margin-top: 25px;
+	font-size: 14px;
+}
+p>a
+{
+	margin-right: 10px;
+	text-decoration: none;
+}
+p>a:hover
+{
+	text-decoration: underline;
+}
+
+/*=================================================*/
+
+#foot_id
+{
+	clear: both;
+	background: #f2f2f2;
+	position: relative;
+	top: 560px;
+}
+#foot_id>hr
+{
+	background-color:#e4e4e4;
+	height: 0;
+	color: #e4e4e4;
+}
+
+
+#f1sec
+{
+	height: 45px;
+}
+#f1sec h4
+{
+	position: absolute;
+	top: 15px;
+	margin-left: 20px;
+	color: #5f6368;
+	font-weight: lighter;
+}
+#f2sec
+{
+	height: 45px;
+}
+
+#left
+{
+	float: left;
+}
+#right
+{
+	float: right;
+}
+
+#f2sec>div>a
+{
+	padding: 15px;
+	position: relative;
+	top: 10px;
+	text-decoration: none;
+	color: black;
+	font-size: small;
+	color: #5f6368;
+}
+#f2sec>div>a:hover
+{
+	text-decoration: underline;
+}
+#foot_id::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*======Mobile View=======*/
