@@ -4,6 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 #top_nav 
 {
 	float: right;
@@ -180,4 +181,11 @@ p>a:hover
 	clear: both;
 }
 
-/*======Mobile View=======*/
+/*======Mobile View (375*882)=======*/
+/* @media only screen and (max-width:375px){
+	body
+	{
+		height: 100vh;
+		width: 100vw;
+	}
+} */
